@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Braah+One&family=Outfit:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Outfit;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+  max-width: 375px;
+  margin: 0px;
+  background-color: white;
+  border-radius: 5%;
+  text-align: center;
+
+  top: 50%;
+  left: 30%;
+
+  img {
+    height: auto;
+    width: 97%;
+    padding: 15px;
+    border-radius: 10%;
+  }
+  h1 {
+    font-size: 1.2em;
+    padding-left: 55px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+  }
+  p {
+    font-size: 15px;
+    padding-left: 55px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+  }
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+@media (max-width: 400px) {
+  .center {
+    padding-top: 80px;
+  }
+  .container {
+    max-width: 90%;
+  }
+}
