@@ -1,1 +1,63 @@
-@import"https://fonts.googleapis.com/css2?family=Braah+One&family=Outfit:wght@400;700&display=swap";*{box-sizing:border-box;margin:0;padding:0;font-family:Outfit}body{background-color:#d6e2f0}.container{max-width:375px;margin:0px;background-color:#fff;border-radius:5%;text-align:center;top:50%;left:30%}.container img{height:auto;width:97%;padding:15px;border-radius:10%}.container h1{font-size:1.2em;padding-left:55px;padding-right:50px;padding-bottom:20px;text-align:center;color:#1f3251}.container p{font-size:15px;padding-left:55px;padding-right:50px;padding-bottom:50px;text-align:center;color:#7b879d}.center{display:flex;flex-direction:row;align-items:center;justify-content:center;padding-top:200px}@media(max-width: 400px){.center{padding-top:80px}.container{max-width:90%}}
+@import url("https://fonts.googleapis.com/css2?family=Braah+One&family=Outfit:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Outfit;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  max-width: 375px;
+  margin: 0px;
+  background-color: white;
+  border-radius: 5%;
+  text-align: center;
+
+
+
+  img {
+    height: auto;
+    width: 97%;
+    padding: 1rem;
+    border-radius: 10%;
+  }
+  h1 {
+    font-size: 1.2em;
+    padding: 1rem;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+  }
+  p {
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+  }
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+@media (max-width: 320px) {
+  .center {
+    padding-top: 80px;
+  }
+  .container {
+    max-width: 90%;
+  }
+}
